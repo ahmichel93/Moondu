@@ -1,0 +1,89 @@
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula 01 - MVC.csprojAssemblyReference.cache
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\Aula 01 - MVC.dll.config
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\Aula 01 - MVC.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\Aula 01 - MVC.pdb
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\csc.exe
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\csc.exe.config
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\csc.rsp
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\csi.exe
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\csi.exe.config
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\csi.rsp
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.AppContext.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Console.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Net.Http.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\vbc.exe
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\vbc.exe.config
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\vbc.rsp
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\EntityFramework.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\MySql.Data.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\System.Web.Helpers.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\System.Web.Mvc.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\System.Web.Razor.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\System.Web.Webpages.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\System.Web.Webpages.Razor.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\EntityFramework.xml
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\MySql.Data.xml
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\MySql.Data.Entity.EF6.xml
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\System.Web.Razor.xml
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\System.Web.Webpages.xml
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\System.Web.Webpages.Razor.xml
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\System.Web.Helpers.xml
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\System.Web.Mvc.xml
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula 01 - MVC.csproj.CopyComplete
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula 01 - MVC.dll
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula 01 - MVC.pdb
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula_01___MVC.Migrations.Create_Pessoa.resources
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula 01 - MVC.csproj.GenerateResource.cache
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula_01___MVC.Migrations.Create_Pessoa1.resources
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula_01___MVC.Migrations.Create_Pessoa2.resources

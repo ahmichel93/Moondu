@@ -1,0 +1,26 @@
+﻿@model Aula_01___MVC.Models.ViewModel.ProdutoViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Formulário Alyson</h2>
+<br />
+<br />
+<br />
+
+<form method="POST" action="@Url.Action("Index")>
+    
+    @Html.LabelFor(m => m.Nome)
+    <input name="Nome" type="text" value="@Model.Nome" />
+
+    @Html.LabelFor(m => m.Valor)
+    <input name="Valor" type="number" value="@Model.Valor" />
+
+    @Html.LabelFor(m => m.Quantidade)
+    <input name="Quantidade" type="number" value="@Model.Quantidade" />
+
+    @Html.LabelFor(m => m.EstaAtivo)
+    <input name="EstaAtivo" type="checkbox" value="@Model.EstaAtivo" />
+
+</form>
