@@ -70,21 +70,14 @@ namespace Aula_01___MVC.Controllers
             {
                 using (Aula01DbCtx context = new Aula01DbCtx())
                 {
-                    if (colaboradorView.isEdicao) {
+                    if (colaboradorView.isEdicao)
+                    {
                         Colaborador colaborador = context.Colaboradores.FirstOrDefault(c => c.Matricula == colaboradorView.Matricula);
-                        if(colaborador != null)
+                        if (colaborador != null)
                         {
-                            colaborador.Nome = colaboradorView.Nome;
-                            colaborador.Matricula = colaboradorView.Matricula.Value;
-                            colaborador.Email = colaboradorView.Email;
-                            colaborador.Gestor = colaboradorView.Gestor;
-                            
-                            if (colaboradorView.Telefone.HasValue)
-                                colaborador.Telefone = colaboradorView.Telefone.Value;
-
-                            context.SaveChanges();
+                            EditaColaborador(colaborador, colaboradorView);
                         }
-                        
+
                         else
                         {
                             return RedirectToAction("Lista");
@@ -92,27 +85,28 @@ namespace Aula_01___MVC.Controllers
                         }
                     }
 
-                    else 
-                    { 
-                    //Validação se o usuário ja existe no banco de dados
-                    Colaborador colaborador_matricula = context.Colaboradores.FirstOrDefault(c => c.Matricula == colaboradorView.Matricula);
-                    Colaborador colaborador_nome = context.Colaboradores.FirstOrDefault(c => c.Nome == colaboradorView.Nome);
+                    else
+                    {
+                        //Validação se o usuário ja existe no banco de dados
+                        Colaborador colaborador_matricula = context.Colaboradores.FirstOrDefault(c => c.Matricula == colaboradorView.Matricula);
+                        Colaborador colaborador_nome = context.Colaboradores.FirstOrDefault(c => c.Nome == colaboradorView.Nome);
                         if (colaborador_matricula != null)
-                            {
+                        {
                             //adiciona mensagem de erro a tela, retornando a tela preenchida
                             ModelState.AddModelError("Matricula", "Esta matrícula ja está cadastrada.");
 
                             return View(colaboradorView);
-                            }
+                        }
                         if (colaborador_nome != null)
-                            {
+                        {
                             //adiciona mensagem de erro a tela, retornando a tela preenchida
                             ModelState.AddModelError("Nome", "Esta Nome ja está cadastrado.");
 
                             return View(colaboradorView);
-                            }
+
+                        }
+                            CadastraColaborador(colaboradorView);
                     }
-                    CadastraColaborador(colaboradorView);
                 }
                 return RedirectToAction("Lista");
             }
@@ -135,6 +129,22 @@ namespace Aula_01___MVC.Controllers
 
             context.Colaboradores.Add(colaborador);
             context.SaveChanges();
+            }
+        }
+
+        private void EditaColaborador (Colaborador colaborador, ColaboradorViewModel colaboradorView)
+        {
+            using(Aula01DbCtx context = new Aula01DbCtx())
+            {
+                colaborador.Nome = colaboradorView.Nome;
+                colaborador.Matricula = colaboradorView.Matricula.Value;
+                colaborador.Email = colaboradorView.Email;
+                colaborador.Gestor = colaboradorView.Gestor;
+
+                if (colaboradorView.Telefone.HasValue)
+                    colaborador.Telefone = colaboradorView.Telefone.Value;
+
+                context.SaveChanges();
             }
         }
 
