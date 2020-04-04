@@ -4,12 +4,12 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Colaboradores</h2>
+<h2>Colaboradores : @ViewBag.Acao</h2>
 <br />
 <br />
 <br />
 
-<form method="POST" action="@Url.Action("Index")">
+<form method="POST" action="@Url.Action("Colaborador")">
 
     @Html.LabelFor(m => m.Matricula)
     <input name="Matricula" type="text" value="@Model.Matricula" />
@@ -27,8 +27,16 @@
     <input name="Telefone" type="text" value="@Model.Telefone" />
 
     @Html.LabelFor(m => m.Gestor)
-    <input name="Gestor" type="checkbox" value="@Model.Gestor" />
+    @if (Model.Gestor)
+    {
+        <input name="Gestor" type="checkbox" value="@Model.Gestor" id="Gestor" />
+    }
+    else
+    {
+        <input name="Gestor" type="checkbox" value="true" id="Gestor"/>
+    }
+    <input type="hidden" name="isEdicao" value="@Model.isEdicao.ToString()"/>
 
-    <button type="submit">Enviar</button>
+    <button type="submit"> @ViewBag.Acao</button>
 
 </form>

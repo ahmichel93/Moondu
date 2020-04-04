@@ -10,8 +10,22 @@ namespace Aula_01___MVC.Controllers
 {
     public class TreinamentoController : Controller
     {
+
+        public ActionResult Lista()
+        {
+            TreinamentoListaViewModel lista = new TreinamentoListaViewModel();
+        
+            using (Aula01DbCtx context = new Aula01DbCtx())
+            {
+               lista.ListaTreinamentos = context.Treinamentos.ToList();
+            }
+            return View(lista);
+        }
+
+        
+
        //GET:
-        public ActionResult Index()
+        public ActionResult Treinamento()
         {
             TreinamentoViewModel treinamentoViewModel = new TreinamentoViewModel();
 
@@ -20,12 +34,21 @@ namespace Aula_01___MVC.Controllers
         //POST
         [HttpPost]
 
-        public ActionResult Index(TreinamentoViewModel treinamentoView)
+        public ActionResult Treinamento(TreinamentoViewModel treinamentoView)
         {
             if (HttpContext.Request.HttpMethod == "POST" && ModelState.IsValid)
             {
                 using (Aula01DbCtx context = new Aula01DbCtx())
                 {
+
+                    Treinamento treinamento_Codigo = context.Treinamentos.FirstOrDefault(t => t.Codigo == treinamentoView.Codigo);
+                    if(treinamento_Codigo != null)
+                    {
+                        ModelState.AddModelError("Codigo", "O Código ja existe");
+
+                        return View(treinamentoView);
+                    }
+                                                         
                     Treinamento treinamento = new Treinamento()
                     {
                         Codigo = treinamentoView.Codigo.Value,
@@ -41,13 +64,23 @@ namespace Aula_01___MVC.Controllers
                     context.SaveChanges();
 
                 }
-                return RedirectToAction("Retorno", "Home");
+                return RedirectToAction("Lista");
             }
             return View(treinamentoView);
         }
-        public ActionResult Retorno()
+        public ActionResult Deletar(int Codigo)
         {
-            return View();
+            using (Aula01DbCtx context = new Aula01DbCtx())
+            {
+                Treinamento treinamento = context.Treinamentos.FirstOrDefault(t => t.Codigo == Codigo);
+
+                if (treinamento != null)
+                {
+                    context.Treinamentos.Remove(treinamento);
+                    context.SaveChanges();
+                }
+            }
+            return RedirectToAction("lista");
         }
     }
 }

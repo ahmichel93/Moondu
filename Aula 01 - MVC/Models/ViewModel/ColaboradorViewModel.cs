@@ -6,6 +6,12 @@ using System.Web;
 
 namespace Aula_01___MVC.Models.ViewModel
 {
+
+    public class ColaboradorListaViewModel
+    {
+        public List<Colaborador> ListaColaboradores { get; set; }
+    }
+
     public class ColaboradorViewModel
     {
         [Required(ErrorMessage = "A Matrícula é Obrigatória!")]
@@ -22,6 +28,8 @@ namespace Aula_01___MVC.Models.ViewModel
 
 
         public bool Gestor { get; set; }
+
+        public bool isEdicao { get; set; }
 
     }
 

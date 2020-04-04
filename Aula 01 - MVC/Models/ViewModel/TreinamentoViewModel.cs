@@ -6,6 +6,12 @@ using System.Web;
 
 namespace Aula_01___MVC.Models.ViewModel
 {
+
+    public class TreinamentoListaViewModel
+    {
+        public List<Treinamento> ListaTreinamentos { get; set; }
+    }
+
     public class TreinamentoViewModel
     {
         [Required]

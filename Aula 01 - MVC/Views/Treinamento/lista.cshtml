@@ -1,0 +1,31 @@
+﻿@model Aula_01___MVC.Models.ViewModel.TreinamentoListaViewModel
+@{
+    ViewBag.Title = "Lista";
+}
+
+<h2>Lista de Cursos</h2>
+
+<a href="@Url.Action("Treinamento")">Cadastrar Novo</a>
+
+<table>
+    <thead>
+        <tr>
+            <td>Código</td>
+            <td>Nome</td>
+            <td>Descrição</td>
+            <td>Ações</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var treinamento in Model.ListaTreinamentos)
+        {
+            <tr>
+                <td>@treinamento.Codigo</td>
+                <td>@treinamento.Nome</td>
+                <td>@treinamento.Descricao</td>
+                <td><a href="">Editar</a> | <a href="@Url.Action("Deletar", new { Codigo = treinamento.Codigo })"> Excluir</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+

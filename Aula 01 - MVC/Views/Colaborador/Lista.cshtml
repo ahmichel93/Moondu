@@ -1,0 +1,40 @@
+﻿@model Aula_01___MVC.Models.ViewModel.ColaboradorListaViewModel
+@{
+    ViewBag.Title = "Lista";
+}
+
+<h2>Lista de Colaboradores</h2>
+
+<a href="@Url.Action("Colaborador")">Novo Colaborador</a>
+
+<table>
+
+    <thead>
+        <tr>
+            <td>Matricula</td>
+            <td>Nome</td>
+            <td>Email</td>
+            <td>Ações</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var colaborador in Model.ListaColaboradores)
+        {
+            <tr>
+                <td>@colaborador.Matricula</td>
+                <td>@colaborador.Nome</td>
+                <td>@colaborador.Email</td>
+                <td>
+                <a href="@Url.Action("Colaborador", new { Matricula = colaborador.Matricula })">Editar</a> |
+                <a href="@Url.Action("Deletar", new { Matricula = colaborador.Matricula })">Excluir</a>
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+
+
+

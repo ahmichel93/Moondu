@@ -183,8 +183,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
-    <Content Include="Views\Colaborador\Index.cshtml" />
-    <Content Include="Views\Treinamento\Index.cshtml" />
+    <Content Include="Views\Colaborador\Colaborador.cshtml" />
+    <Content Include="Views\Treinamento\Treinamento.cshtml" />
+    <Content Include="Views\Colaborador\Lista.cshtml" />
+    <Content Include="Views\Treinamento\Lista.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

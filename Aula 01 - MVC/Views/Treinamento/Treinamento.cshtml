@@ -9,7 +9,7 @@
 <br />
 <br />
 
-<form method="POST" action="@Url.Action("Index")">
+<form method="POST" action="@Url.Action("Treinamento")">
 
     @Html.LabelFor(m => m.Codigo)
     <input name="Codigo" type="text" value="@Model.Codigo" />
@@ -20,7 +20,7 @@
     @Html.ValidationMessageFor(m => m.Nome)
 
     @Html.LabelFor(m => m.Descricao)
-    <input name="Descricao" type="text" value="@Model.Descricao" />
+    <textarea rows="3" name="Descricao" value="@Model.Descricao"> </textarea>
     @Html.ValidationMessageFor(m => m.Descricao)
 
     @Html.LabelFor(m => m.Vagas)
@@ -28,11 +28,11 @@
     @Html.ValidationMessageFor(m => m.Vagas)
 
     @Html.LabelFor(m => m.Inicio)
-    <input name="Inicio" type="datetime" value="@Model.Inicio" />
+    <input name="Inicio" type="date" value="@Model.Inicio" />
     @Html.ValidationMessageFor(m => m.Inicio)
 
     @Html.LabelFor(m => m.Final)
-    <input name="Final" type="datetime" value="@Model.Final" />
+    <input name="Final" type="date" value="@Model.Final" />
     @Html.ValidationMessageFor(m => m.Final)
 
     @Html.LabelFor(m => m.Local)
