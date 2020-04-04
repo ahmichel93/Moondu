@@ -1,0 +1,34 @@
+﻿@model Aula_01___MVC.Models.ViewModel.ColaboradorViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Colaboradores</h2>
+<br />
+<br />
+<br />
+
+<form method="POST" action="@Url.Action("Index")">
+
+    @Html.LabelFor(m => m.Matricula)
+    <input name="Matricula" type="text" value="@Model.Matricula" />
+    @Html.ValidationMessageFor(m => m.Matricula
+)
+    @Html.LabelFor(m => m.Nome)
+    <input name="Nome" type="text" value="@Model.Nome" />
+    @Html.ValidationMessageFor(m => m.Nome)
+
+    @Html.LabelFor(m => m.Email)
+    <input name="Email" type="text" value="@Model.Email" />
+    @Html.ValidationMessageFor(m => m.Email)
+
+    @Html.LabelFor(m => m.Telefone)
+    <input name="Telefone" type="text" value="@Model.Telefone" />
+
+    @Html.LabelFor(m => m.Gestor)
+    <input name="Gestor" type="checkbox" value="@Model.Gestor" />
+
+    <button type="submit">Enviar</button>
+
+</form>

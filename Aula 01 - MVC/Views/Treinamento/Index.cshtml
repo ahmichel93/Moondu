@@ -1,0 +1,45 @@
+﻿@model Aula_01___MVC.Models.ViewModel.TreinamentoViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Treinamentos</h2>
+<br />
+<br />
+<br />
+
+<form method="POST" action="@Url.Action("Index")">
+
+    @Html.LabelFor(m => m.Codigo)
+    <input name="Codigo" type="text" value="@Model.Codigo" />
+    @Html.ValidationMessageFor(m => m.Codigo)
+
+    @Html.LabelFor(m => m.Nome)
+    <input name="Nome" type="text" value="@Model.Nome" />
+    @Html.ValidationMessageFor(m => m.Nome)
+
+    @Html.LabelFor(m => m.Descricao)
+    <input name="Descricao" type="text" value="@Model.Descricao" />
+    @Html.ValidationMessageFor(m => m.Descricao)
+
+    @Html.LabelFor(m => m.Vagas)
+    <input name="Vagas" type="number" value="@Model.Vagas" />
+    @Html.ValidationMessageFor(m => m.Vagas)
+
+    @Html.LabelFor(m => m.Inicio)
+    <input name="Inicio" type="datetime" value="@Model.Inicio" />
+    @Html.ValidationMessageFor(m => m.Inicio)
+
+    @Html.LabelFor(m => m.Final)
+    <input name="Final" type="datetime" value="@Model.Final" />
+    @Html.ValidationMessageFor(m => m.Final)
+
+    @Html.LabelFor(m => m.Local)
+    <input name="Local" type="text" value="@Model.Local" />
+    @Html.ValidationMessageFor(m => m.Local)
+
+
+    <button type="submit">Enviar</button>
+
+</form>

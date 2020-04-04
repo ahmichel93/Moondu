@@ -1,4 +1,5 @@
-﻿using MySql.Data.Entity;
+﻿using Aula_01___MVC.Models.ViewModel;
+using MySql.Data.Entity;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -17,6 +18,10 @@ namespace Aula_01___MVC.Models
         public Aula01DbCtx() : base("MySqlConn") { }
         
         public DbSet<Produto> Produtos { get; set; }
+
+        public DbSet<Treinamento> Treinamentos { get; set; }
+
+        public DbSet<Colaborador> Colaboradores { get; set; }
 
     }
 }

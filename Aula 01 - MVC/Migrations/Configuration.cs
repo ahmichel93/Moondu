@@ -32,6 +32,7 @@
 
             var prod = new Produto()
             {
+                Id = 1,
                 Nome = "Alyson Michel",
                 Valor = 1,
                 Quantidade = 1,

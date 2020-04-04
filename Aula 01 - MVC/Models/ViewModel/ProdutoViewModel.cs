@@ -8,7 +8,6 @@ namespace Aula_01___MVC.Models.ViewModel
 {
     public class ProdutoViewModel
     {
-        [Required(ErrorMessage = "O campo Id é Obrigatório")]
         public int Id { get; set; }
 
         public string Nome { get; set; }
@@ -20,6 +19,6 @@ namespace Aula_01___MVC.Models.ViewModel
 
         [Display(Name = " Está Ativo?")]
         [Required(ErrorMessage = "O campo Está Ativo é Obrigatório")]
-        public Boolean EstaAtivo { get; set; }
+        public bool EstaAtivo { get; set; }
     }
 }

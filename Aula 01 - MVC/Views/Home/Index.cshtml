@@ -2,60 +2,68 @@
 @{
     ViewBag.Title = "Index";
 }
-    <br />
-    <br />
-    <br />
+<br />
+<br />
+<br />
 
 @Html.ActionLink("Novo Formulário", "Index", "FormularioForm")
+<br />
+<br />
+<br />
+<br />
+@Html.ActionLink("Colaboradores", "Index", "Colaborador")
+<br />
+<br />
+<br />
+<br />
+@Html.ActionLink("Treinamentos", "Index", "Treinamento")
+<br />
+<br />
+<br />
+<br />
+<form method="post" action="@Url.Action("Index")">
+
+    @Html.LabelFor(m => m.PessoaCpf)
+    @Html.TextBoxFor(m => m.PessoaCpf)
+    @Html.ValidationMessageFor(m => m.PessoaCpf)
+
+    @*<input name="PessoaCpf" type="text" />*@
+
+    @Html.LabelFor(m => m.Nome)
+    <input name="Nome" type="text" value="@Model.Nome" />
+
     <br />
+
+
+    @Html.LabelFor(m => m.Email)
+    <input name="Email" type="text" value="@Model.Email" />
+    @Html.ValidationMessageFor(m => m.Email)
+
     <br />
+
+    @Html.LabelFor(m => m.Idade)
+    <input name="Idade" type="number" value="@Model.Idade" />
+
     <br />
+
+    @Html.LabelFor(m => m.CorCabelo)
+    <input name="CorCabelo" type="text" value="@Model.CorCabelo" />
+
+    <br />
+
+    @Html.LabelFor(m => m.Gosto)
+    <input name="Gosto" type="text" value="@Model.Gosto" />
+
     <br />
 
 
-    <form method="post" action="@Url.Action("Index")">
-        
-        @Html.LabelFor(m => m.PessoaCpf)
-        @Html.TextBoxFor(m => m.PessoaCpf)
-        @Html.ValidationMessageFor(m => m.PessoaCpf)
+    @Html.LabelFor(m => m.Telefone)
+    <input name="Telefone" type="number" value="@Model.Telefone" />
+    @Html.ValidationMessageFor(m => m.Telefone)
+    <br />
 
-        @*<input name="PessoaCpf" type="text" />*@
-
-        @Html.LabelFor(m => m.Nome)
-        <input name="Nome" type="text" value="@Model.Nome" />
-
-        <br />
+    <button> Enviar</button>
 
 
-        @Html.LabelFor(m => m.Email)
-        <input name="Email" type="text" value="@Model.Email" />
-        @Html.ValidationMessageFor(m => m.Email)
-
-        <br />
-
-        @Html.LabelFor(m => m.Idade)
-        <input name="Idade" type="number" value="@Model.Idade" />
-
-        <br />
-
-        @Html.LabelFor(m => m.CorCabelo)
-        <input name="CorCabelo" type="text" value="@Model.CorCabelo" />
-
-        <br />
-
-        @Html.LabelFor(m => m.Gosto)
-        <input name="Gosto" type="text" value="@Model.Gosto" />
-
-        <br />
-
-
-        @Html.LabelFor(m => m.Telefone)
-        <input name="Telefone" type="number" value="@Model.Telefone" />
-        @Html.ValidationMessageFor(m => m.Telefone)
-        <br />
-
-        <button> Enviar</button>
-
-
-    </form>
+</form>
 

@@ -19,6 +19,7 @@ namespace Aula_01___MVC.Controllers
         }
 
         //POST
+        [HttpPost]
 
         public ActionResult Index(ProdutoViewModel produtoView)
         {
@@ -40,7 +41,11 @@ namespace Aula_01___MVC.Controllers
                 }
                 return RedirectToAction("Retorno");
             }
-            return View(pessoaView);
+            return View(produtoView);
+        }
+        public ActionResult Retorno()
+        {
+            return View();
         }
     }
 }

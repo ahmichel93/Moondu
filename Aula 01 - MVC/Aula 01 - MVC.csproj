@@ -128,8 +128,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ColaboradorController.cs" />
     <Compile Include="Controllers\FormularioFormController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TreinamentoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -145,12 +147,24 @@
     <Compile Include="Migrations\202003281812412_Create_Pessoa2.designer.cs">
       <DependentUpon>202003281812412_Create_Pessoa2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004012207488_addProduto.cs" />
+    <Compile Include="Migrations\202004012207488_addProduto.designer.cs">
+      <DependentUpon>202004012207488_addProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004041414240_TreinEcola.cs" />
+    <Compile Include="Migrations\202004041414240_TreinEcola.designer.cs">
+      <DependentUpon>202004041414240_TreinEcola.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Aula01DbCtx.cs" />
+    <Compile Include="Models\Colaborador.cs" />
     <Compile Include="Models\Pessoa.cs" />
     <Compile Include="Models\Produto.cs" />
+    <Compile Include="Models\Treinamento.cs" />
+    <Compile Include="Models\ViewModel\ColaboradorViewModel.cs" />
     <Compile Include="Models\ViewModel\PessoaViewModel.cs" />
     <Compile Include="Models\ViewModel\ProdutoViewModel.cs" />
+    <Compile Include="Models\ViewModel\TreinamentoViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -169,6 +183,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <Content Include="Views\Colaborador\Index.cshtml" />
+    <Content Include="Views\Treinamento\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -188,6 +204,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003281812412_Create_Pessoa2.resx">
       <DependentUpon>202003281812412_Create_Pessoa2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004012207488_addProduto.resx">
+      <DependentUpon>202004012207488_addProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004041414240_TreinEcola.resx">
+      <DependentUpon>202004041414240_TreinEcola.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

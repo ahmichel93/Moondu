@@ -1,4 +1,3 @@
-C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula 01 - MVC.csprojAssemblyReference.cache
 C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\Aula 01 - MVC.dll.config
 C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\Aula 01 - MVC.dll
 C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\bin\Aula 01 - MVC.pdb
@@ -87,3 +86,6 @@ C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula_
 C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula 01 - MVC.csproj.GenerateResource.cache
 C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula_01___MVC.Migrations.Create_Pessoa1.resources
 C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula_01___MVC.Migrations.Create_Pessoa2.resources
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula_01___MVC.Migrations.addProduto.resources
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula 01 - MVC.csprojAssemblyReference.cache
+C:\Users\Alyson Acácio\source\repos\Aula 01 - MVC\Aula 01 - MVC\obj\Debug\Aula_01___MVC.Migrations.TreinEcola.resources
