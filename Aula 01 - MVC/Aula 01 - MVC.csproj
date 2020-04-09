@@ -155,6 +155,10 @@
     <Compile Include="Migrations\202004041414240_TreinEcola.designer.cs">
       <DependentUpon>202004041414240_TreinEcola.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004090002386_correcaoTreinamento.cs" />
+    <Compile Include="Migrations\202004090002386_correcaoTreinamento.designer.cs">
+      <DependentUpon>202004090002386_correcaoTreinamento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Aula01DbCtx.cs" />
     <Compile Include="Models\Colaborador.cs" />
@@ -212,6 +216,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004041414240_TreinEcola.resx">
       <DependentUpon>202004041414240_TreinEcola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004090002386_correcaoTreinamento.resx">
+      <DependentUpon>202004090002386_correcaoTreinamento.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

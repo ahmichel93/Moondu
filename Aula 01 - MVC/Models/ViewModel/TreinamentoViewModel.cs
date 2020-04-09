@@ -34,5 +34,7 @@ namespace Aula_01___MVC.Models.ViewModel
 
         [Required(ErrorMessage = "O Local é Obrigatório")]
         public string Local { get; set; }
+
+        public bool isEdicao { get; set; }
     }
 }

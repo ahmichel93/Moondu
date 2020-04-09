@@ -116,19 +116,20 @@ namespace Aula_01___MVC.Controllers
         private void CadastraColaborador(ColaboradorViewModel colaboradorView)
         {
 
-            using (Aula01DbCtx context = new Aula01DbCtx()) { 
-                Colaborador colaborador = new Colaborador()
+            using (Aula01DbCtx context = new Aula01DbCtx())
             {
-                Matricula = colaboradorView.Matricula.Value,
-                Nome = colaboradorView.Nome,
-                Email = colaboradorView.Email,
-                Gestor = colaboradorView.Gestor,
-            };
-            if (colaboradorView.Telefone.HasValue)
-                colaborador.Telefone = colaboradorView.Telefone.Value;
+                Colaborador colaborador = new Colaborador()
+                {
+                    Matricula = colaboradorView.Matricula.Value,
+                    Nome = colaboradorView.Nome,
+                    Email = colaboradorView.Email,
+                    Gestor = colaboradorView.Gestor,
+                };
+                if (colaboradorView.Telefone.HasValue)
+                    colaborador.Telefone = colaboradorView.Telefone.Value;
 
-            context.Colaboradores.Add(colaborador);
-            context.SaveChanges();
+                context.Colaboradores.Add(colaborador);
+                context.SaveChanges();
             }
         }
 
@@ -146,6 +147,7 @@ namespace Aula_01___MVC.Controllers
 
                 context.SaveChanges();
             }
+
         }
 
 

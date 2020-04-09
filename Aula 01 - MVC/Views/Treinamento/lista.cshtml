@@ -23,7 +23,8 @@
                 <td>@treinamento.Codigo</td>
                 <td>@treinamento.Nome</td>
                 <td>@treinamento.Descricao</td>
-                <td><a href="">Editar</a> | <a href="@Url.Action("Deletar", new { Codigo = treinamento.Codigo })"> Excluir</a></td>
+                <td><a href="@Url.Action("Treinamento", new { Codigo = treinamento.Codigo })" >Editar</a> | 
+                <a href="@Url.Action("Deletar", new { Codigo = treinamento.Codigo })"> Excluir</a></td>
             </tr>
         }
     </tbody>
